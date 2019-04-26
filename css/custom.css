@@ -1,0 +1,88 @@
+
+/*tags*/
+
+a:link {
+    color: darkblue;
+}
+
+a:visited {
+    color: darkblue;
+}
+
+a:hover {
+    color: black;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/*Classes*/
+
+.flex-caption {
+  width: 100%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.font16{
+    font-size: 16px;
+    margin-top: 1em;
+}
+
+.sizedDiv{
+    width: 60%;
+    text-align: center;
+    /*margin: 0  12.5% 5% 12.5%;*/
+    padding: 1% 2% 2% 2%;
+}
+
+@media only screen and (min-width: 768px) {
+    .largeInlineImg{
+        width: 30%;
+        /*height:*/ 
+    }
+    
+    .vid{
+        width: 560px;
+        height: 315px;
+    }
+    
+    #backgroundDiv{
+        width: 75%;
+        text-align: center;
+        margin: 0  12.5% 5% 12.5%;
+        padding: 1% 2% 2% 2%;
+        background-color: lightslategrey;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .largeInlineImg{
+        width: 80%;
+        /*height:*/ 
+    }
+
+    .vid{
+        width: 100%;
+/*        height: 315;*/
+    }
+    
+    #backgroundDiv{
+        width: 100%;
+        text-align: center;
+        /*margin: 0  12.5% 5% 12.5%;*/
+        padding: 1% 2% 2% 2%;
+        background-color: lightslategrey;
+    }
+}
+
+.right-align{
+    text-align: right;
+}
